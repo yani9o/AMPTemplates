@@ -1,1 +1,13 @@
-
+[
+    {
+        "UpdateStageName": "Server Download",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://coya-htpc.ch/files/",
+        "UpdateSourceArgs": "wrathnilla.zip",
+        "UpdateSourceTarget": "{{$FullRootDir}}",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": true,
+        "DeleteAfterExtract": false
+    }
+]
