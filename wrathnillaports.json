@@ -2,6 +2,8 @@
     {
       "Protocol": "TCP",
       "Port": 8085,
+      "Offset": 0,
+      "Range": 1,
       "Ref": "WorldPort",
       "Name": "World Port",
       "Description": "World Port",
@@ -10,6 +12,8 @@
     {
       "Protocol": "TCP",
       "Port": 3724,
+      "Offset": 0,
+      "Range": 1,
       "Ref": "AuthPort",
       "Name": "Auth Port",
       "Description": "Auth Port",
