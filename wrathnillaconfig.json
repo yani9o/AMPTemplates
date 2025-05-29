@@ -5,7 +5,7 @@
     "Subcategory": "Server:WorkDir:1",
     "Description": "Path to Server Directory.",
     "Keywords": "server,workdir",
-    "FieldName": "ServerWorkdir",
+    "FieldName": "$ServerWorkdir",
     "InputType": "text",
     "IsFlagArgument": false,
     "ParamFieldName": "server_workdir",
