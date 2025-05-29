@@ -7,6 +7,6 @@
         "UpdateSourceTarget": "{{$FullRootDir}}",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
-        "DeleteAfterExtract": false
+        "DeleteAfterExtract": true
     }
 ]
