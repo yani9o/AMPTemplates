@@ -1,4 +1,4 @@
-Meta.DisplayName=Wrathnilla
+Meta.DisplayName=World of Warcraft (Wrathnilla)
 Meta.Description=Wrathnilla Dedicated Server
 Meta.OS=Windows, Linux
 Meta.AarchSupport=Unknown
@@ -28,7 +28,7 @@ Meta.AppConfigId=11fd7a76-00d6-40c1-8851-f2a1b87c75fb
 Meta.OriginalSource=yani9o-AMPTemplates-main
 Meta.ImportableExtensions=[]
 Meta.AppIsMultiIPAware=False
-App.DisplayName=wrathnilla
+App.DisplayName=World of Warcraft (Wrathnilla)
 App.RootDir=./wrathnilla/
 App.BaseDirectory=./wrathnilla/
 App.SteamWorkshopDownloadLocation=
