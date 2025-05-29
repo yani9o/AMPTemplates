@@ -1,1 +1,17 @@
-
+ReleaseVersion
+[
+  {
+    "DisplayName": "Server Directory",
+    "Category": "Wrathnilla:stadia_controller",
+    "Subcategory": "Server:WorkDir:1",
+    "Description": "Path to Server Directory.",
+    "Keywords": "server,workdir",
+    "FieldName": "ServerWorkdir",
+    "InputType": "text",
+    "IsFlagArgument": false,
+    "ParamFieldName": "server_workdir",
+    "IncludeInCommandLine": true,
+    "DefaultValue": "H:\\Wrathnilla",
+    "EnumValues": {}
+  }
+]
