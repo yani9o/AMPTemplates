@@ -2,7 +2,7 @@
     {
       "Protocol": "TCP",
       "Port": 8085,
-      "Ref": "GamePort1",
+      "Ref": "WorldPort",
       "Name": "World Port",
       "Description": "World Port",
       "ChildPorts": null
@@ -10,7 +10,7 @@
     {
       "Protocol": "TCP",
       "Port": 3724,
-      "Ref": "GamePort2",
+      "Ref": "AuthPort",
       "Name": "Auth Port",
       "Description": "Auth Port",
       "ChildPorts": null
