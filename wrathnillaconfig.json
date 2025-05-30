@@ -22,8 +22,8 @@
     "FieldName": "$StopServer",
     "InputType": "text",
     "IsFlagArgument": false,
-    "ParamFieldName": "server_startup",
-    "IncludeInCommandLine": false,
+    "ParamFieldName": "server_shutdown",
+    "IncludeInCommandLine": true,
     "DefaultValue": "server stop",
     "EnumValues": {}
   },
@@ -37,7 +37,7 @@
     "InputType": "text",
     "IsFlagArgument": false,
     "ParamFieldName": "server_startup",
-    "IncludeInCommandLine": false,
+    "IncludeInCommandLine": true,
     "DefaultValue": "World\\sinitialized",
     "EnumValues": {}
   },
@@ -51,7 +51,7 @@
     "InputType": "text",
     "IsFlagArgument": false,
     "ParamFieldName": "server_userjoin",
-    "IncludeInCommandLine": false,
+    "IncludeInCommandLine": true,
     "DefaultValue": "connected",
     "EnumValues": {}
   },
@@ -65,7 +65,7 @@
     "InputType": "text",
     "IsFlagArgument": false,
     "ParamFieldName": "server_userleave",
-    "IncludeInCommandLine": false,
+    "IncludeInCommandLine": true,
     "DefaultValue": "disconnected",
     "EnumValues": {}
   }
