@@ -2,7 +2,7 @@
   {
     "DisplayName": "Server Directory",
     "Category": "Wrathnilla:stadia_controller",
-    "Subcategory": "Server:General:1",
+    "Subcategory": "Server:dns:1",
     "Description": "Path to Server Directory.",
     "Keywords": "server,workdir",
     "FieldName": "$ServerWorkdir",
@@ -16,7 +16,7 @@
   {
     "DisplayName": "Server Shutdown command",
     "Category": "Wrathnilla:stadia_controller",
-    "Subcategory": "Server:General:2",
+    "Subcategory": "Server:dns:1",
     "Description": "String to Send via Console to shutdown server.",
     "Keywords": "server,shutdown",
     "FieldName": "$StopServer",
@@ -30,7 +30,7 @@
   {
     "DisplayName": "Server StartUp Regex",
     "Category": "Wrathnilla:stadia_controller",
-    "Subcategory": "Server:Regex:1",
+    "Subcategory": "Server:dns:1",
     "Description": "Regex to register StartUp.",
     "Keywords": "server,startup",
     "FieldName": "$StartUp",
@@ -44,7 +44,7 @@
   {
     "DisplayName": "Server UserJoin Regex",
     "Category": "Wrathnilla:stadia_controller",
-    "Subcategory": "Server:Regex:2",
+    "Subcategory": "Server:dns:1",
     "Description": "Regex to register UserJoin",
     "Keywords": "server,user,join",
     "FieldName": "$UserJoin",
@@ -58,7 +58,7 @@
   {
     "DisplayName": "Server UserLeave Regex",
     "Category": "Wrathnilla:stadia_controller",
-    "Subcategory": "Server:Regex:3",
+    "Subcategory": "Server:dns:1",
     "Description": "Regex to register UserLeave",
     "Keywords": "server,user,leave",
     "FieldName": "$UserLeave",
