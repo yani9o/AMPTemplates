@@ -24,7 +24,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "server_startup",
     "IncludeInCommandLine": false,
-    "DefaultValue": "World\sinitialized",
+    "DefaultValue": "server stop",
     "EnumValues": {}
   },
   {
@@ -38,7 +38,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "server_startup",
     "IncludeInCommandLine": false,
-    "DefaultValue": "World\sinitialized",
+    "DefaultValue": "World\\sinitialized",
     "EnumValues": {}
   },
   {
