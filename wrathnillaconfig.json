@@ -14,20 +14,6 @@
     "EnumValues": {}
   },
   {
-    "DisplayName": "Server Shutdown command",
-    "Category": "Wrathnilla:stadia_controller",
-    "Subcategory": "Server:dns:1",
-    "Description": "String to Send via Console to shutdown server.",
-    "Keywords": "server,shutdown",
-    "FieldName": "$StopServer",
-    "InputType": "text",
-    "IsFlagArgument": false,
-    "ParamFieldName": "server_shutdown",
-    "IncludeInCommandLine": true,
-    "DefaultValue": "server stop",
-    "EnumValues": {}
-  },
-  {
     "DisplayName": "Server StartUp Regex",
     "Category": "Wrathnilla:stadia_controller",
     "Subcategory": "Server:dns:1",
