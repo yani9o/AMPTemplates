@@ -9,7 +9,7 @@
     "InputType": "text",
     "IsFlagArgument": false,
     "ParamFieldName": "server_workdir",
-    "IncludeInCommandLine": true,
+    "IncludeInCommandLine": false,
     "DefaultValue": "H:\\Wrathnilla",
     "EnumValues": {}
   },
@@ -23,7 +23,7 @@
     "InputType": "text",
     "IsFlagArgument": false,
     "ParamFieldName": "server_startup",
-    "IncludeInCommandLine": true,
+    "IncludeInCommandLine": false,
     "DefaultValue": "World initialized",
     "EnumValues": {}
   },
@@ -51,7 +51,7 @@
     "InputType": "text",
     "IsFlagArgument": false,
     "ParamFieldName": "server_userleave",
-    "IncludeInCommandLine": true,
+    "IncludeInCommandLine": false,
     "DefaultValue": "Logout Character",
     "EnumValues": {}
   }
