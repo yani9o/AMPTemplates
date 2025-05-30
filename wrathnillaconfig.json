@@ -24,7 +24,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "server_startup",
     "IncludeInCommandLine": true,
-    "DefaultValue": "World\\sinitialized",
+    "DefaultValue": "World initialized",
     "EnumValues": {}
   },
   {
