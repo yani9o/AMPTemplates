@@ -3,7 +3,7 @@
     "DisplayName": "Server Directory",
     "Category": "Wrathnilla:stadia_controller",
     "Subcategory": "Server:dns:1",
-    "Description": "Path to Server Directory.",
+    "Description": "Path to where the starting-.bat is.",
     "Keywords": "server,workdir",
     "FieldName": "$ServerWorkdir",
     "InputType": "text",
