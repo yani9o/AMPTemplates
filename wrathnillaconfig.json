@@ -2,7 +2,7 @@
   {
     "DisplayName": "Server Directory",
     "Category": "Wrathnilla:stadia_controller",
-    "Subcategory": "Server:WorkDir:1",
+    "Subcategory": "Server:General:1",
     "Description": "Path to Server Directory.",
     "Keywords": "server,workdir",
     "FieldName": "$ServerWorkdir",
@@ -11,6 +11,62 @@
     "ParamFieldName": "server_workdir",
     "IncludeInCommandLine": true,
     "DefaultValue": "H:\\Wrathnilla",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Server Shutdown command",
+    "Category": "Wrathnilla:stadia_controller",
+    "Subcategory": "Server:General:2",
+    "Description": "String to Send via Console to shutdown server.",
+    "Keywords": "server,shutdown",
+    "FieldName": "$StopServer",
+    "InputType": "text",
+    "IsFlagArgument": false,
+    "ParamFieldName": "server_startup",
+    "IncludeInCommandLine": false,
+    "DefaultValue": "World\sinitialized",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Server StartUp Regex",
+    "Category": "Wrathnilla:stadia_controller",
+    "Subcategory": "Server:Regex:1",
+    "Description": "Regex to register StartUp.",
+    "Keywords": "server,startup",
+    "FieldName": "$StartUp",
+    "InputType": "text",
+    "IsFlagArgument": false,
+    "ParamFieldName": "server_startup",
+    "IncludeInCommandLine": false,
+    "DefaultValue": "World\sinitialized",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Server UserJoin Regex",
+    "Category": "Wrathnilla:stadia_controller",
+    "Subcategory": "Server:Regex:2",
+    "Description": "Regex to register UserJoin",
+    "Keywords": "server,user,join",
+    "FieldName": "$UserJoin",
+    "InputType": "text",
+    "IsFlagArgument": false,
+    "ParamFieldName": "server_userjoin",
+    "IncludeInCommandLine": false,
+    "DefaultValue": "connected",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Server UserLeave Regex",
+    "Category": "Wrathnilla:stadia_controller",
+    "Subcategory": "Server:Regex:3",
+    "Description": "Regex to register UserLeave",
+    "Keywords": "server,user,leave",
+    "FieldName": "$UserLeave",
+    "InputType": "text",
+    "IsFlagArgument": false,
+    "ParamFieldName": "server_userleave",
+    "IncludeInCommandLine": false,
+    "DefaultValue": "disconnected",
     "EnumValues": {}
   }
 ]
