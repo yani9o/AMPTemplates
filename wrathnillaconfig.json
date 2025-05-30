@@ -38,7 +38,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "server_userjoin",
     "IncludeInCommandLine": true,
-    "DefaultValue": "connected",
+    "DefaultValue": "Login Character",
     "EnumValues": {}
   },
   {
@@ -52,7 +52,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "server_userleave",
     "IncludeInCommandLine": true,
-    "DefaultValue": "disconnected",
+    "DefaultValue": "Logout Character",
     "EnumValues": {}
   }
 ]
