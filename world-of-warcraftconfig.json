@@ -3,7 +3,7 @@
     "DisplayName": "Server Directory",
     "Category": "WoW:stadia_controller",
     "Subcategory": "Server:dns:1",
-    "Description": "Path to where the starting-.bat is.",
+    "Description": "Path to where worldserver.exe is. (authserver.exe has to run through another way, like autostart)",
     "Keywords": "server,workdir",
     "FieldName": "$ServerWorkdir",
     "InputType": "text",
@@ -24,7 +24,7 @@
     "IsFlagArgument": false,
     "ParamFieldName": "server_startup",
     "IncludeInCommandLine": false,
-    "DefaultValue": "World initialized",
+    "DefaultValue": "World Initialized",
     "EnumValues": {}
   },
   {
