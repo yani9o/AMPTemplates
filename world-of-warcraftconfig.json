@@ -1,7 +1,7 @@
 [
   {
     "DisplayName": "Server Directory",
-    "Category": "Wrathnilla:stadia_controller",
+    "Category": "WoW:stadia_controller",
     "Subcategory": "Server:dns:1",
     "Description": "Path to where the starting-.bat is.",
     "Keywords": "server,workdir",
@@ -10,12 +10,12 @@
     "IsFlagArgument": false,
     "ParamFieldName": "server_workdir",
     "IncludeInCommandLine": false,
-    "DefaultValue": "H:\\Wrathnilla",
+    "DefaultValue": "H:\\WoW",
     "EnumValues": {}
   },
   {
     "DisplayName": "Server StartUp Regex",
-    "Category": "Wrathnilla:stadia_controller",
+    "Category": "WoW:stadia_controller",
     "Subcategory": "Server:dns:1",
     "Description": "Regex to register StartUp.",
     "Keywords": "server,startup",
@@ -29,7 +29,7 @@
   },
   {
     "DisplayName": "Server UserJoin Regex",
-    "Category": "Wrathnilla:stadia_controller",
+    "Category": "WoW:stadia_controller",
     "Subcategory": "Server:dns:1",
     "Description": "Regex to register UserJoin",
     "Keywords": "server,user,join",
@@ -43,7 +43,7 @@
   },
   {
     "DisplayName": "Server UserLeave Regex",
-    "Category": "Wrathnilla:stadia_controller",
+    "Category": "WoW:stadia_controller",
     "Subcategory": "Server:dns:1",
     "Description": "Regex to register UserLeave",
     "Keywords": "server,user,leave",
