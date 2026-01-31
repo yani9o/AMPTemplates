@@ -53,7 +53,7 @@
     "InputType": "text",
     "IsFlagArgument": false,
     "ParamFieldName": "server_userleave",
-    "IncludeInCommandLine": false,
+    "IncludeInCommandLine": true,
     "DefaultValue": "Logout Character",
     "EnumValues": {}
   }
